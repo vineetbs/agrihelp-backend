@@ -14,4 +14,4 @@ This is the backend API for the Agri Help application, providing agriculture-rel
 - **Axios**: HTTP client for making requests to external APIs.
 - **NewsAPI**: API for fetching news articles related to agriculture.
 
-## Prerequisites
+
