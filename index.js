@@ -19,6 +19,12 @@ app.get("/", async (req, res) => {
   }
 });
 
+app.get("/health", (req, res) => {
+  console.log("Cron job executed at", new Date().toISOString());
+  res.status(200).send("Server is alive!");
+});
+
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
